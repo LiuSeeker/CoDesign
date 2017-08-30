@@ -1,18 +1,26 @@
 body{
-	background: grey;
-	color: black;
+	background: rgb(62,204,206);
 }
 
 a{
-	color: yellow;
-	text-decoration: none;
+	color: rgb(40,68,68);
 }
 
 a:hover{
-	color: yellow;
-	background: black;
+	color: rgb(22,68,67);
+	background: rgb(126,206,204);
 }
 
 h1{
-	font-family: serif;
+	font-family: Georgia;
+	color: rgb(0,0,0);	
+}
+
+h2{
+	font-family: Georgia;
+	color: rgba(0,0,0,0.6);
+}
+
+p{
+	font-family: Helvetica;
 }

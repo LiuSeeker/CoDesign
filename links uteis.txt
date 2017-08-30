@@ -1,0 +1,5 @@
+https://color.adobe.com/pt/create/color-wheel/?base=2&rule=Monochromatic&selected=3&name=Meu%20tema%20do%20Color&mode=rgb&rgbvalues=0.5,0.2514926076342018,0.14764480910849692,1,0.7145677877320388,0.5952896182169938,1,0.5029852152684036,0.29528961821699384,0.5,0.1473623792272747,0,0.8,0.4023881722147229,0.23623169457359508&swatchOrder=0,1,2,3,4
+
+https://material.io/color/#!/?view.left=0&view.right=0
+
+http://www.colors.commutercreative.com/grid/
