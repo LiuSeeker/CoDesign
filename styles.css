@@ -1,26 +1,175 @@
 body{
-	background: rgb(62,204,206);
+	background: rgb(209,159,106);
 }
 
 a{
-	color: rgb(40,68,68);
-}
-
-a:hover{
-	color: rgb(22,68,67);
-	background: rgb(126,206,204);
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
 }
 
 h1{
 	font-family: Georgia;
-	color: rgb(0,0,0);	
+	color: rgb(255,255,255);	
 }
 
 h2{
 	font-family: Georgia;
-	color: rgba(0,0,0,0.6);
+	color: rgba(255,255,255,1);
 }
 
 p{
 	font-family: Helvetica;
+}
+
+div{
+	display: block;
+}
+
+.mtop{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(170,130,86);
+}
+
+.bmtop{
+	background-color: rgb(170,130,86);
+	max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+}
+
+.home{
+	border-left: solid;
+	border-right: solid;
+	border-color: rgb(120,85,47);
+	background-color: rgb(170,130,86);
+	margin-left: 5px;
+	position: relative;
+	display: inline-block;
+	width: 96px;
+	height: 40px;
+	font-size: 140%;
+	font-family: Helvetica;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.sobremim{
+	border-left: solid;
+	border-right: solid;
+	border-color: rgb(120,85,47);
+	background-color: rgb(170,130,86);
+	margin-left: 5px;
+	position: relative;
+	display: inline-block;
+	width: 154px;
+	height: 40px;
+	font-size: 140%;
+	font-family: Helvetica;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.projetos{
+	border-left: solid;
+	border-right: solid;
+	border-color: rgb(120,85,47);
+	background-color: rgb(170,130,86);
+	margin-left: 5px;
+	position: relative;
+	display: inline-block;
+	width: 148px;
+	height: 40px;
+	font-size: 140%;
+	font-family: Helvetica;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.contato{
+	border-left: solid;
+	border-right: solid;
+	border-color: rgb(120,85,47);
+	background-color: rgb(170,130,86);
+	margin-left: 5px;
+	position: relative;
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	font-size: 140%;
+	font-family: Helvetica;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.tw{
+	position: relative;
+	display: inline-block;
+	border-left: solid;
+	border-right: solid;
+	border-color: rgb(120,85,47);
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 40px;
+	height: 40px;
+	margin-left: 5px;
+	font-size: 140%;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.fb{
+	position: relative;
+	display: inline-block;
+	border-left: solid;
+	border-right: solid;
+	border-color: rgb(120,85,47);
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 40px;
+	height: 40px;
+	margin-left: 5px;
+	font-size: 140%;
+	vertical-align: middle;
+	line-height: 40px;
+}
+
+.bgpadding{
+	padding-top: 40px;
+}
+
+.cols{
+	display: flex;
+}
+
+.col1{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+}
+
+.col2{
+    border-left: double;
+    border-color: rgb(145,102,57);
+    border-width: 8px;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.bvolta{
+
 }
