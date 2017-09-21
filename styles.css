@@ -1,5 +1,6 @@
 body{
 	background: rgba(222,169,113,0.9);
+	font-family: "Hind";
 }
 
 a{
@@ -8,8 +9,21 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
+a.btop:hover{
 	background-color: rgb(170,130,86);
+	transition-duration: 1s;
+}
+
+a.bproj:hover{
+	background-color: rgb(195,155,107);
+	transition-duration: 0.7s;
+	font-size: 220%;
+}
+
+a.bproj2:hover{
+	background-color: rgb(195,155,107);
+	transition-duration: 0.7s;
+	font-size: 150%;
 }
 
 h4:hover{
@@ -17,19 +31,19 @@ h4:hover{
 }
 
 h1{
-	font-family: "Hind", sans-serif;
+	font-family: "Hind";
 	letter-spacing: 1.5px;
 	color: ivory;	
 }
 
 h2{
-	font-family: "Hind", sans-serif;
+	font-family: "Hind";
 	letter-spacing: 1.5px;
 	color: ivory;
 }
 
 h3{
-	font-family: "Hind", sans-serif;
+	font-family: "Hind";
 	letter-spacing: 1.5px;
 	color: ivory;
 }
@@ -44,21 +58,28 @@ div{
 	display: block;
 }
 
-
-
 @media (min-width: 500px) {
   html {
     font-size: 0.6em;
+  }
+  p {
+  	font-size: 1.30em
   }
 }
 @media (min-width: 800px) {
   html {
     font-size: 0.75em;
   }
+  p {
+  	font-size: 1.20em
+  }
 }
 @media (min-width: 1000px) {
   html {
     font-size: 0.8em;
+  }
+  p {
+  	font-size: 1.05em
   }
 }
 @media (min-width: 1200px) {
@@ -88,10 +109,9 @@ div{
     position: relative;
 }
 
-.home{
+.btop{
 	border-left: solid;
 	border-right: solid;
-	border-width: 100%;
 	border-color: rgb(120,85,47);
 	background-color: rgba(132,98,70,0.5);
 	display: table-cell;
@@ -99,42 +119,7 @@ div{
 	padding-left: 10px;
 	height: 60px;
 	font-size: 140%;
-	font-family: 'Hind', sans-serif;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 60px;
-}
-
-.sobremim{
-	border-left: solid;
-	border-right: solid;
-	border-width: 100%;
-	border-color: rgb(120,85,47);
-	background-color: rgba(132,98,70,0.5);
-	display: table-cell;
-	padding-left: 10px;
-	padding-right: 10px;
-	height: 60px;
-	font-size: 140%;
-	font-family: 'Hind', sans-serif;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 60px;
-}
-
-.projetos{
-	border-left: solid;
-	border-right: solid;
-	border-width: 100%;
-	border-color: rgb(120,85,47);
-	background-color: rgba(132,98,70,0.5);
-	position: relative;
-	display: table-cell;
-	padding-left: 10px;
-	padding-right: 10px;
-	height: 60px;
-	font-size: 140%;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Hind';
 	text-align: center;
 	vertical-align: middle;
 	line-height: 60px;
@@ -197,7 +182,6 @@ div{
 
 .bvolta{
 	border: solid;
-	border-width: 100%;
 	border-color: rgb(120,85,47);
 	background-color: rgb(132,98,70);
 	display: inline-block;
@@ -205,9 +189,28 @@ div{
 	padding-right: 10px;
 	padding-left: 10px;
 	font-size: 120%;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Hind';
 	line-height: 40px;
 	text-align: center;
+}
+
+.dropdown {
+	margin: auto;
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 140px;
+    position: static;
+    display: block;
+    background-color: rgb(170,130,86);
+	font-size: 200%;
+	font-family: 'Hind';
+	color: white;
+	border: solid;
+	margin-top: 4px;
+	cursor: pointer;
+	border-color: rgb(145,102,57);
 }
 
 .bproj{
@@ -216,14 +219,46 @@ div{
 	height: 140px;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 140px; 
+	position: static;
+	line-height: 140px;
 	display: block;
 	background-color: rgb(170,130,86);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
 	font-size: 200%;
-	font-family: 'Hind', sans-serif;
+	font-family: 'Hind';
 	border: solid;
-	margin-top: 4px;
+	margin-top: 10px;
 	border-color: rgb(145,102,57);
+}
+
+.bproj > p{
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.bproj2{
+	margin: auto;
+	width: 45%;
+	height: 300px;
+	text-align: center;
+	line-height: 300px;
+	display: inline-block;
+	overflow: auto;
+	background-color: rgb(170,130,86);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+	font-size: 140%;
+	font-family: 'Hind';
+	border: solid;
+	margin-top: 2%;
+	margin-right: 2%;
+	border-color: rgb(145,102,57);
+}
+
+.bproj2 > p{
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: middle;
 }
 
 .ad{
