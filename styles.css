@@ -48,6 +48,12 @@ h3{
 	color: ivory;
 }
 
+ul{
+	font-family: 'Open Sans', sans-serif;
+	color: ivory;
+	line-height: 135%;
+}
+
 p{
 	font-family: 'Open Sans', sans-serif;
 	color: ivory;
@@ -285,8 +291,29 @@ div{
 .nome{
 	text-align: center;
 	font-size: 34px;
+	font-family: 'Hind';
 }
 
 .eu{
-	margin-bottom: 4%;
+	margin-bottom: 25%;
+
 }
+
+.email{
+	text-decoration: underline;
+	color: blue; 
+}
+
+.espaçamento{
+	margin-bottom: 35%;
+
+}
+
+.espaçamento1{
+	margin-bottom: 10%;
+
+}
+
+
+
+
