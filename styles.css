@@ -8,7 +8,9 @@ a{
 	letter-spacing: 1.2px;
 	text-decoration: none;
 }
-
+li{
+	margin-bottom: 2%
+}
 a.btop:hover{
 	background-color: rgb(170,130,86);
 	transition-duration: 1s;
@@ -336,6 +338,11 @@ div{
 	margin-bottom: 10%;
 }
 
+.espaçamento2{
+	margin-bottom: 25%;
+
+}
+}
 .car{
 	width: 100%;
 	text-align: center;
