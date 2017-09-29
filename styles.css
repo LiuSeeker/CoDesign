@@ -47,6 +47,7 @@ p{
 	color: ivory;
 	line-height: 135%;
 	font-size: 20px;
+	text-indent: 4em;
 }
 
 div{
@@ -287,6 +288,13 @@ div{
 	line-height: 60px;
 }
 
+.fotoeue{
+	float: left;
+	width: 35%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+
 .fotoeud{
 	float: right;
 	width: 35%;
@@ -374,3 +382,51 @@ div{
 .pmaior{
 	font-size: 130%;
 }
+
+}
+.fotoeue_1{
+	float: left;
+	width: 60%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+.fotoeue_1e{
+	float: left;
+	width: 42%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+.fotoeue_2e{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+.fotoeue_2{
+	float: left;
+	width: 85%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+.fotoeue_3{
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+.espaçamentomodsim{
+	margin-bottom: 50%;
+
+}
+.espaçamentomodsim2{
+	margin-bottom: 60%;
+
+}
+.fotoeud_1{
+	float: left;
+	width: 55%;
+	height:100%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
+
