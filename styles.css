@@ -30,25 +30,10 @@ h4:hover{
 	background-color: rgb(170,130,86);
 }
 
-h1{
+h1, h2, h3{
 	font-family: "Hind";
 	letter-spacing: 1.5px;
 	color: ivory;	
-}
-li{
-	margin-bottom: 2%
-}
-
-h2{
-	font-family: "Hind";
-	letter-spacing: 1.5px;
-	color: ivory;
-}
-
-h3{
-	font-family: "Hind";
-	letter-spacing: 1.5px;
-	color: ivory;
 }
 
 ul{
@@ -61,14 +46,14 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	color: ivory;
 	line-height: 135%;
-	text-indent:4em
+	font-size: 20px;
 }
 
 div{
 	display: block;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   html {
     font-size: 0.6em;
   }
@@ -76,12 +61,20 @@ div{
   	font-size: 1.30em
   }
 }
+@media (min-width: 500px) {
+  html {
+    font-size: 0.5em;
+  }
+  p {
+  	font-size: 1.80em
+  }
+}
 @media (min-width: 800px) {
   html {
     font-size: 0.75em;
   }
   p {
-  	font-size: 1.20em
+  	font-size: 1.35em
   }
 }
 @media (min-width: 1000px) {
@@ -89,12 +82,15 @@ div{
     font-size: 0.8em;
   }
   p {
-  	font-size: 1.05em
+  	font-size: 1.25em
   }
 }
 @media (min-width: 1200px) {
   html {
     font-size: 1em;
+  }
+  p{
+  	font-size: 1.05em;
   }
 }
 .mtop{
@@ -178,6 +174,27 @@ div{
 	font-size: 300%;
 	vertical-align: middle;
 	line-height: 140px;
+	background-color: rgb(132,98,70);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+	margin-top: 2.5%;
+	border: solid;
+	border-color: rgb(120,85,47);
+}
+
+.bannerp{
+	margin: auto;
+	width: 100%;
+	min-height: 150px;
+	text-align: center;
+	font-size: 1.6em;
+	vertical-align: middle;
+	line-height: 60px;
+	background-color: rgb(132,98,70);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+	border: solid;
+	margin-top: 1.8%;
+	margin-bottom: 2%;
+	border-color: rgb(120,85,47);
 }
 
 .subbanner{
@@ -186,6 +203,16 @@ div{
 	height: 100px;
 	text-align: center;
 	font-size: 200%;
+	vertical-align: middle;
+	line-height: 100px;
+}
+
+.bannern{
+	margin: auto;
+	width: 80%;
+	min-height: 100px;
+	text-align: center;
+	font-size: 100%;
 	vertical-align: middle;
 	line-height: 100px;
 }
@@ -204,25 +231,6 @@ div{
 	text-align: center;
 }
 
-.dropdown {
-	margin: auto;
-	width: 100%;
-	height: 140px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 140px;
-    position: static;
-    display: block;
-    background-color: rgb(170,130,86);
-	font-size: 200%;
-	font-family: 'Hind';
-	color: white;
-	border: solid;
-	margin-top: 4px;
-	cursor: pointer;
-	border-color: rgb(145,102,57);
-}
-
 .bproj{
 	margin: auto;
 	width: 100%;
@@ -237,7 +245,8 @@ div{
 	font-size: 200%;
 	font-family: 'Hind';
 	border: solid;
-	margin-top: 10px;
+	margin-top: 5%;
+	margin-bottom: 3%;
 	border-color: rgb(145,102,57);
 }
 
@@ -278,15 +287,14 @@ div{
 	line-height: 60px;
 }
 
-.fotoeue{
-	float: left;
+.fotoeud{
+	float: right;
 	width: 35%;
-	margin-right: 5%;
+	margin-left: 5%;
 	margin-bottom: 2%;
 }
 
-.fotoeud{
-	float: right;
+.fotoeum{
 	width: 35%;
 	margin-left: 5%;
 	margin-bottom: 2%;
@@ -296,11 +304,15 @@ div{
 	text-align: center;
 	font-size: 34px;
 	font-family: 'Hind';
+	background-color: rgb(170,130,86);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+	border: solid;
+	border-color: rgb(145,102,57);
+	max-width: 60%;
 }
 
 .eu{
 	margin-bottom: 25%;
-
 }
 
 .email{
@@ -309,48 +321,56 @@ div{
 }
 
 .espaçamento{
-	margin-bottom: 25%;
-
+	margin-bottom: 35%;
 }
 
 .espaçamento1{
 	margin-bottom: 10%;
-
-}
-.fotoeue_1{
-	float: left;
-	width: 60%;
-	margin-right: 5%;
-	margin-bottom: 4%;
-}
-.fotoeue_1e{
-	float: left;
-	width: 40%;
-	margin-right: 5%;
-	margin-bottom: 3%;
-}
-.fotoeue_2{
-	float: left;
-	width: 85%;
-	margin-right: 5%;
-	margin-bottom: 4%;
-}
-.fotoeue_3{
-	float: left;
-	width: 65%;
-	margin-right: 5%;
-	margin-bottom: 4%;
-}
-.espaçamentomodsim{
-	margin-bottom: 50%;
-
 }
 
-.fotoeud_1{
-	float: left;
-	width: 55%;
-	height:100%;
-	margin-right: 1%;
-	margin-bottom: 2%;
+.car{
+	width: 100%;
+	text-align: center;
 }
 
+.foto{
+	margin: auto;
+	display: inline-block;
+	width: 30%;
+	height: 380px;
+	overflow: hidden;
+	vertical-align: middle;
+	border: solid;
+	border-color: rgb(145,102,57);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.foto2{
+	margin: auto;
+	display: inline-block;
+	width: 30%;
+	height: 380px;
+	overflow: hidden;
+	vertical-align: middle;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: solid;
+	border-color: rgb(145,102,57);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.foto3{
+	margin: auto;
+	display: inline-block;
+	width: 30%;
+	height: 380px;
+	overflow: hidden;
+	vertical-align: middle;
+	border: solid;
+	border-color: rgb(145,102,57);
+	box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.pmaior{
+	font-size: 130%;
+}
