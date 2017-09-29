@@ -35,6 +35,9 @@ h1{
 	letter-spacing: 1.5px;
 	color: ivory;	
 }
+li{
+	margin-bottom: 2%
+}
 
 h2{
 	font-family: "Hind";
@@ -58,6 +61,7 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	color: ivory;
 	line-height: 135%;
+	text-indent:4em
 }
 
 div{
@@ -305,7 +309,7 @@ div{
 }
 
 .espaçamento{
-	margin-bottom: 35%;
+	margin-bottom: 25%;
 
 }
 
@@ -313,7 +317,40 @@ div{
 	margin-bottom: 10%;
 
 }
+.fotoeue_1{
+	float: left;
+	width: 60%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+.fotoeue_1e{
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+}
+.fotoeue_2{
+	float: left;
+	width: 85%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+.fotoeue_3{
+	float: left;
+	width: 65%;
+	margin-right: 5%;
+	margin-bottom: 4%;
+}
+.espaçamentomodsim{
+	margin-bottom: 50%;
 
+}
 
-
+.fotoeud_1{
+	float: left;
+	width: 55%;
+	height:100%;
+	margin-right: 1%;
+	margin-bottom: 2%;
+}
 
