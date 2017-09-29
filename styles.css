@@ -342,6 +342,14 @@ div{
 	margin-bottom: 25%;
 
 }
+.espaçamento0{
+	margin-bottom: 5%;
+
+}
+.espaçamento4{
+	margin-bottom: 60%;
+
+}
 }
 .car{
 	width: 100%;
@@ -434,6 +442,13 @@ div{
 	width: 55%;
 	height:100%;
 	margin-right: 1%;
+	margin-bottom: 2%;
+}
+.fotoeue_4{
+	float: left;
+	width: 21%;
+
+	margin-right: 5%;
 	margin-bottom: 2%;
 }
 
