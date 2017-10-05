@@ -1,0 +1,33 @@
+Mecanica:
+	Mini estscao meteorologica
+	Brinquedo bio-inspirado
+
+Mecatronica:
+	Distribuicao de petroleo
+	Sistema de aquecimento de chuveiro
+	Mini estacao meteorologica
+
+Comp:
+	Leitro e padronizacao de nomes
+	Inspermon
+	Projeto final (jogo)
+	Estudo de dados da PNAD
+	Arquitetura da informacao
+
+Pratica:
+	Leitor e padronizacao de nomes
+	Inspermon
+	Projeto final (jogo)
+	Mini estacao meteorologica
+	Brinquedo bio-inspirado
+	Estudo de dados da PNAD
+	Montagem de portifolio on-line
+
+Teórica:
+	Apresentacao de case
+	Mini artigo cientifico
+	Distribuicao de petroleo
+	Sistema de aquecimento de chuveiro
+	Modelagem vieiras, arraias, tubaroes
+	Modelagem farmacocinetica/termodinamica
+	Modelagem 3

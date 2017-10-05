@@ -1,0 +1,29 @@
+DesSof:
+	Leitor e padronização de nomes  -comp
+	Inspermon  -comp
+	Projeto final (jogo) -comp
+
+GDE:
+	Apresentação de case  -teorico
+	Mini artigo cientifico  -teorico
+
+Instrumed:
+	Distribuicao de petroleo  - mecatr™nico ,pratico
+	Sistema de aquecimento de chuveiro  - mecatr™nico ,pratico
+	Mini estacao meteorologica  - mecatronico e meca,pratico
+
+ModSim:
+	Modelagem de vieiras, arraias, tubaroes  - te—rico
+	Modelagem famacocinetica/termodinamica  - teorico
+	Modelagem 3  - teorico 
+
+NatDes:
+	Brinquedo bio-inspirado  - meca,pratico,mecatronico
+
+CD:
+	Estudo de dados da PNAD - comp
+
+CoDesign:
+	Montagem de portifólio on-line  - comp
+
+	
